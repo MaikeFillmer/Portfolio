@@ -464,12 +464,17 @@ input, textarea {
 
 .about-grey-content ul li a {
 	display: block;
-	width: 42px;
-	height: 42px;
+	width: 66px;
+	height: 66px;
 	border: 2px solid rgb(200, 200, 200);
 	color: rgb(160, 160, 160);
-	font-size: 13px;
-	line-height: 38px;
+	font-size: 14px;
+	line-height: 62px;
+}
+
+.about-grey-content ul li a i {
+
+	vertical-align: middle;
 }
 
 .about-grey-content ul li a:hover {
