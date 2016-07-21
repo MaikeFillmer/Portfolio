@@ -19,6 +19,7 @@
   "homepage": "https://github.com/MaikeFillmer/Portfolio#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
     "express": "^4.14.0",
     "method-override": "^2.3.6",
     "path": "^0.12.7"

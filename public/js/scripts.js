@@ -193,28 +193,28 @@ $(function() {
     e.preventDefault();
   });
 
-  /*===============================================
-    Google Maps
-  ===============================================*/
-  var markerIcon = "images/marker.png";
-  // Map Initial Location
-  var initLatitude = 40.556526; // <- Latitude here
-  var initLongitude = -74.464173; // <- Longitude here
+  // /*===============================================
+  //   Google Maps
+  // ===============================================*/
+  // var markerIcon = "images/marker.png";
+  // // Map Initial Location
+  // var initLatitude = 40.556526; // <- Latitude here
+  // var initLongitude = -74.464173; // <- Longitude here
   
-  var map = new GMaps({
-    el: '#map-canvas',
-    lat: initLatitude,
-    lng: initLongitude,
-    zoom: 9,
-    scrollwheel: false
-  });
-  map.addMarker({
-    lat : initLatitude,
-    lng : initLongitude,
-    icon: markerIcon
-  });
-  /*===============================================
-    end Google Maps
-  ===============================================*/
+  // var map = new GMaps({
+  //   el: '#map-canvas',
+  //   lat: initLatitude,
+  //   lng: initLongitude,
+  //   zoom: 9,
+  //   scrollwheel: false
+  // });
+  // map.addMarker({
+  //   lat : initLatitude,
+  //   lng : initLongitude,
+  //   icon: markerIcon
+  // });
+  // /*===============================================
+  //   end Google Maps
+  // ===============================================*/
 
 });

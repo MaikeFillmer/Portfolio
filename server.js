@@ -2,6 +2,7 @@
 // DEPENDENCIES
 // Series of npm packages that we will use to give our server useful functionality
 // ==============================================================================
+var compression = require('compression');
 var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
@@ -24,7 +25,8 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.text());
 app.use(bodyParser.json({type:'application/vnd.api+json'}));
 
-
+//compression
+app.use(compression());
 
 //handlebars
 //var exphbs = require('express-handlebars');
